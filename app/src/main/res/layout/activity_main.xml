@@ -13,52 +13,36 @@
         android:gravity="center_horizontal|bottom"
         android:background="@drawable/vector">
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@color/white"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="5dp"
-            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:src="@drawable/ic_select_home"/>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@color/white"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="5dp"
-            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:src="@drawable/ic_unselect_mesh"/>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@color/white"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="5dp"
-            />
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@color/white"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="5dp"
-            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/ic_floating_btn"/>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@color/white"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="5dp"
-            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:src="@drawable/ic_unselect_search"/>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@color/white"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="5dp"
-            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:src="@drawable/ic_unselect_addperson"/>
 
     </LinearLayout>
 
